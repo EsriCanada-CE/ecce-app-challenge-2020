@@ -65,7 +65,7 @@ Mikaila is a student at the Centre of Geographic Sciences, Nova Scotia Community
 David is a student at the Centre of Geographic Sciences, Nova Scotia Community College, who is pursuing an Advanced Diploma in GIS. He is currently studying on geographic science systems (GIS) in the GIS concentration. Before coming here he studied Environmental Geography at the University of Montreal in the province of Quebec and Geomatics at the Algonquin College of Ottawa, in Ontario. Since then for the last 5 years, he has worked as a Geomatic Technician for the Canadian Armed Forces and was given the opportunity to return to school to further my knowledge in the field of geomatics and GIS. His pastimes mostly involve outdoor sports and activities such as hiking, biking, climbing (Ice & Rock) and trail running, but he also partakes in group sports such as volleyball. 
 
 
-##References 
+## References 
 Clow KM, Leighton PA, Ogden NH, Lindsay LR, Michel P, et al. (2017). Northward range expansion of *Ixodes scapularis* evident over a short timescale in Ontario, Canada. *PLOS ONE* 12(12): e0189393. [https://doi.org/10.1371/journal.pone.0189393](https://doi.org/10.1371/journal.pone.0189393)
 
 Government of Canada. (2017). Symptoms of Lyme Disease. Public Health. [Accessed March 2020](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/symptoms-lyme-disease.html)
