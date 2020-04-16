@@ -1,0 +1,957 @@
+{
+  "mainPanelIcon": "",
+  "layerInfos": [
+    {
+      "layer": "NursingHomes_withDistanceInfo_HRM_7158",
+      "label": "Nursing Homes",
+      "refresh": false,
+      "url": "https://services1.arcgis.com/56dETZIzFXStwLka/arcgis/rest/services/NursingHomes_withDistanceInfo_HRM/FeatureServer/0",
+      "id": "NursingHomes_withDistanceInfo_HRM_7158",
+      "symbolData": {
+        "symbolType": "LayerSymbol",
+        "symbol": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "http://static.arcgis.com/images/Symbols/PeoplePlaces/School.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 19.5,
+          "height": 19.5
+        },
+        "clusteringEnabled": false,
+        "displayFeatureCount": false,
+        "_highLightColor": "#ffffff",
+        "icon": {
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "type": "esriPMS",
+          "url": "http://static.arcgis.com/images/Symbols/PeoplePlaces/School.png",
+          "imageData": "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",
+          "contentType": "image/png",
+          "width": 21,
+          "height": 21
+        },
+        "iconType": "LayerIcon",
+        "renderer": {
+          "_cache": {
+            "rotationInfo": null,
+            "colorInfo": null,
+            "opacityInfo": null,
+            "uvInfo": {
+              "attributeInfo": {},
+              "isNumeric": false,
+              "idSource": null,
+              "id": null,
+              "hasExpr": false,
+              "compiledFunc": null,
+              "syntaxTree": null,
+              "isScaleDriven": false,
+              "dependsOnView": false,
+              "dependsOnGeometry": false,
+              "isJSFunc": false
+            }
+          },
+          "values": [
+            "Full Care",
+            "Partial Care",
+            "Independent Living"
+          ],
+          "_symbols": {
+            "Full Care": {
+              "value": "Full Care",
+              "symbol": {
+                "url": "${appPath}/configs/InfoSummary/url1583380473499.png",
+                "width": 18,
+                "height": 18,
+                "imageData": "http://static.arcgis.com/images/Symbols/PeoplePlaces/School.png",
+                "contentType": "image/png",
+                "size": 16,
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "label": "Full Care"
+            },
+            "Partial Care": {
+              "value": "Partial Care",
+              "symbol": {
+                "url": "${appPath}/configs/InfoSummary/url1583380473502.png",
+                "width": 18,
+                "height": 18,
+                "imageData": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_62_Yellow.png",
+                "contentType": "image/png",
+                "size": 16,
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "label": "Partial Care"
+            },
+            "Independent Living": {
+              "value": "Independent Living",
+              "symbol": {
+                "url": "${appPath}/configs/InfoSummary/url1583380473508.png",
+                "width": 18,
+                "height": 18,
+                "imageData": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_62_White.png",
+                "contentType": "image/png",
+                "size": 16,
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "label": "Independent Living"
+            }
+          },
+          "infos": [
+            {
+              "value": "Full Care",
+              "symbol": {
+                "url": "${appPath}/configs/InfoSummary/url1583380473512.png",
+                "width": 28,
+                "height": 28,
+                "imageData": "http://static.arcgis.com/images/Symbols/PeoplePlaces/School.png",
+                "contentType": "image/png",
+                "size": 16,
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "label": "Full Care"
+            },
+            {
+              "value": "Partial Care",
+              "symbol": {
+                "url": "${appPath}/configs/InfoSummary/url1583380473514.png",
+                "width": 26,
+                "height": 26,
+                "imageData": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_62_Yellow.png",
+                "contentType": "image/png",
+                "size": 16,
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "label": "Partial Care"
+            },
+            {
+              "value": "Independent Living",
+              "symbol": {
+                "url": "${appPath}/configs/InfoSummary/url1583380473517.png",
+                "width": 26,
+                "height": 26,
+                "imageData": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_62_White.png",
+                "contentType": "image/png",
+                "size": 16,
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "label": "Independent Living"
+            }
+          ],
+          "attributeField": "Level_of_Care_Provided",
+          "_multiple": false,
+          "_uvInfo": {},
+          "_hasNullKeyword": false,
+          "isMaxInclusive": true,
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "",
+        "svg": {},
+        "panelHTML": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,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\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></image></svg>",
+        "userDefinedSymbol": false,
+        "layerId": "NursingHomes_withDistanceInfo_HRM_7158",
+        "selectedId": "imageGFX_0",
+        "featureDisplayOptions": {
+          "groupEnabled": false,
+          "listDisabled": false,
+          "groupByRenderer": false,
+          "groupByField": true,
+          "fields": [
+            {
+              "name": "Name"
+            },
+            {
+              "name": "Facility_Type"
+            },
+            {
+              "name": "Level_of_Care_Provided"
+            }
+          ],
+          "groupField": {
+            "name": "OBJECTID",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": [
+              {
+                "name": "Level_of_Care_Provided"
+              }
+            ],
+            "values": [
+              {
+                "value": " === 'Full Care'",
+                "label": "Full Care"
+              },
+              {
+                "value": " === 'Partial Care'",
+                "label": "Partial Care"
+              },
+              {
+                "value": " === 'Independent Living'",
+                "label": "Independent Living"
+              }
+            ]
+          }
+        }
+      },
+      "geometryType": "esriGeometryPoint",
+      "parentLayerID": "NursingHomes_withDistanceInfo_HRM_7158",
+      "renderer": {
+        "_cache": {
+          "rotationInfo": null,
+          "colorInfo": null,
+          "opacityInfo": null,
+          "uvInfo": {
+            "attributeInfo": {},
+            "isNumeric": false,
+            "idSource": null,
+            "id": null,
+            "hasExpr": false,
+            "compiledFunc": null,
+            "syntaxTree": null,
+            "isScaleDriven": false,
+            "dependsOnView": false,
+            "dependsOnGeometry": false,
+            "isJSFunc": false
+          }
+        },
+        "values": [
+          "Full Care",
+          "Partial Care",
+          "Independent Living"
+        ],
+        "_symbols": {
+          "Full Care": {
+            "value": "Full Care",
+            "symbol": {
+              "url": "${appPath}/configs/InfoSummary/url1583380473523.png",
+              "width": 18,
+              "height": 18,
+              "imageData": "http://static.arcgis.com/images/Symbols/PeoplePlaces/School.png",
+              "contentType": "image/png",
+              "size": 16,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "Full Care"
+          },
+          "Partial Care": {
+            "value": "Partial Care",
+            "symbol": {
+              "url": "${appPath}/configs/InfoSummary/url1583380473530.png",
+              "width": 18,
+              "height": 18,
+              "imageData": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_62_Yellow.png",
+              "contentType": "image/png",
+              "size": 16,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "Partial Care"
+          },
+          "Independent Living": {
+            "value": "Independent Living",
+            "symbol": {
+              "url": "${appPath}/configs/InfoSummary/url1583380473533.png",
+              "width": 18,
+              "height": 18,
+              "imageData": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_62_White.png",
+              "contentType": "image/png",
+              "size": 16,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "Independent Living"
+          }
+        },
+        "infos": [
+          {
+            "value": "Full Care",
+            "symbol": {
+              "url": "${appPath}/configs/InfoSummary/url1583380473537.png",
+              "width": 18,
+              "height": 18,
+              "imageData": "http://static.arcgis.com/images/Symbols/PeoplePlaces/School.png",
+              "contentType": "image/png",
+              "size": 16,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "Full Care"
+          },
+          {
+            "value": "Partial Care",
+            "symbol": {
+              "url": "${appPath}/configs/InfoSummary/url1583380473541.png",
+              "width": 18,
+              "height": 18,
+              "imageData": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_62_Yellow.png",
+              "contentType": "image/png",
+              "size": 16,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "Partial Care"
+          },
+          {
+            "value": "Independent Living",
+            "symbol": {
+              "url": "${appPath}/configs/InfoSummary/url1583380473546.png",
+              "width": 18,
+              "height": 18,
+              "imageData": "http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_62_White.png",
+              "contentType": "image/png",
+              "size": 16,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "label": "Independent Living"
+          }
+        ],
+        "attributeField": "Level_of_Care_Provided",
+        "_multiple": false,
+        "_uvInfo": {},
+        "_hasNullKeyword": false,
+        "isMaxInclusive": true,
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "editable": false,
+          "nullable": false,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Facility_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Type",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Level_of_Care_Provided",
+          "type": "esriFieldTypeString",
+          "alias": "Level of Care Provided",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Total_Occupancy",
+          "type": "esriFieldTypeString",
+          "alias": "Total Occupancy",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Town",
+          "type": "esriFieldTypeString",
+          "alias": "Town",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Postal_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Postal Code",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Phone",
+          "type": "esriFieldTypeString",
+          "alias": "Phone",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Website",
+          "type": "esriFieldTypeString",
+          "alias": "Website",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Nearest_Hospital",
+          "type": "esriFieldTypeString",
+          "alias": "Nearest Hospital",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Distance_to_nearest_hospital__K",
+          "type": "esriFieldTypeDouble",
+          "alias": "Distance to nearest hospital (KM)",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Nearest_Clinic",
+          "type": "esriFieldTypeString",
+          "alias": "Nearest Clinic",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Distance_to_Nearest_Clinic__KM_",
+          "type": "esriFieldTypeDouble",
+          "alias": "Distance to Nearest Clinic (KM)",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Nerest_Pharmacy",
+          "type": "esriFieldTypeString",
+          "alias": "Nerest Pharmacy",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Distance_to_Nearest_Pharmacy__K",
+          "type": "esriFieldTypeDouble",
+          "alias": "Distance to Nearest Pharmacy (KM)",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Nearest_Park",
+          "type": "esriFieldTypeString",
+          "alias": "Nearest Park",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Distance_to_Nearest_Park__KM_",
+          "type": "esriFieldTypeDouble",
+          "alias": "Distance to Nearest Park (KM)",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Nearest_Recreational_Facility",
+          "type": "esriFieldTypeString",
+          "alias": "Nearest Recreational Facility",
+          "length": 8000,
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        },
+        {
+          "name": "Distance_to_Nearest_Recreationa",
+          "type": "esriFieldTypeDouble",
+          "alias": "Distance to Nearest Recreational Facility (KM)",
+          "editable": true,
+          "nullable": true,
+          "defaultValue": null,
+          "description": null
+        }
+      ],
+      "oidFieldName": "OBJECTID",
+      "subLayerId": 0,
+      "infoTemplate": {
+        "info": {
+          "title": "Nursing Homes: {Name}",
+          "fieldInfos": [
+            {
+              "fieldName": "OBJECTID",
+              "label": "OBJECTID",
+              "isEditable": false,
+              "tooltip": "",
+              "visible": false,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Name",
+              "label": "Name",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Facility_Type",
+              "label": "Facility Type",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Level_of_Care_Provided",
+              "label": "Level of Care Provided",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Total_Occupancy",
+              "label": "Total Occupancy",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Town",
+              "label": "Town",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Address",
+              "label": "Address",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Postal_Code",
+              "label": "Postal Code",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Phone",
+              "label": "Phone",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Website",
+              "label": "Website",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Nearest_Hospital",
+              "label": "Nearest Hospital",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Distance_to_nearest_hospital__K",
+              "label": "Distance to nearest hospital (KM)",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox",
+              "format": {
+                "places": 2,
+                "digitSeparator": true
+              }
+            },
+            {
+              "fieldName": "Nearest_Clinic",
+              "label": "Nearest Clinic",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Distance_to_Nearest_Clinic__KM_",
+              "label": "Distance to Nearest Clinic (KM)",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox",
+              "format": {
+                "places": 2,
+                "digitSeparator": true
+              }
+            },
+            {
+              "fieldName": "Nerest_Pharmacy",
+              "label": "Nerest Pharmacy",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Distance_to_Nearest_Pharmacy__K",
+              "label": "Distance to Nearest Pharmacy (KM)",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox",
+              "format": {
+                "places": 2,
+                "digitSeparator": true
+              }
+            },
+            {
+              "fieldName": "Nearest_Park",
+              "label": "Nearest Park",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Distance_to_Nearest_Park__KM_",
+              "label": "Distance to Nearest Park (KM)",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox",
+              "format": {
+                "places": 2,
+                "digitSeparator": true
+              }
+            },
+            {
+              "fieldName": "Nearest_Recreational_Facility",
+              "label": "Nearest Recreational Facility",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox"
+            },
+            {
+              "fieldName": "Distance_to_Nearest_Recreationa",
+              "label": "Distance to Nearest Recreational Facility (KM)",
+              "isEditable": true,
+              "tooltip": "",
+              "visible": true,
+              "stringFieldOption": "textbox",
+              "format": {
+                "places": 2,
+                "digitSeparator": true
+              }
+            }
+          ],
+          "description": null,
+          "showAttachments": true,
+          "mediaInfos": []
+        },
+        "_exprCache": {},
+        "_fieldLabels": {
+          "objectid": "OBJECTID",
+          "name": "Name",
+          "facility_type": "Facility Type",
+          "level_of_care_provided": "Level of Care Provided",
+          "total_occupancy": "Total Occupancy",
+          "town": "Town",
+          "address": "Address",
+          "postal_code": "Postal Code",
+          "phone": "Phone",
+          "website": "Website",
+          "nearest_hospital": "Nearest Hospital",
+          "distance_to_nearest_hospital__k": "Distance to nearest hospital (KM)",
+          "nearest_clinic": "Nearest Clinic",
+          "distance_to_nearest_clinic__km_": "Distance to Nearest Clinic (KM)",
+          "nerest_pharmacy": "Nerest Pharmacy",
+          "distance_to_nearest_pharmacy__k": "Distance to Nearest Pharmacy (KM)",
+          "nearest_park": "Nearest Park",
+          "distance_to_nearest_park__km_": "Distance to Nearest Park (KM)",
+          "nearest_recreational_facility": "Nearest Recreational Facility",
+          "distance_to_nearest_recreationa": "Distance to Nearest Recreational Facility (KM)"
+        },
+        "_fieldsMap": {
+          "objectid": {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          "name": {
+            "fieldName": "Name",
+            "label": "Name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "facility_type": {
+            "fieldName": "Facility_Type",
+            "label": "Facility Type",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "level_of_care_provided": {
+            "fieldName": "Level_of_Care_Provided",
+            "label": "Level of Care Provided",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "total_occupancy": {
+            "fieldName": "Total_Occupancy",
+            "label": "Total Occupancy",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "town": {
+            "fieldName": "Town",
+            "label": "Town",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "address": {
+            "fieldName": "Address",
+            "label": "Address",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "postal_code": {
+            "fieldName": "Postal_Code",
+            "label": "Postal Code",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "phone": {
+            "fieldName": "Phone",
+            "label": "Phone",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "website": {
+            "fieldName": "Website",
+            "label": "Website",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "nearest_hospital": {
+            "fieldName": "Nearest_Hospital",
+            "label": "Nearest Hospital",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "distance_to_nearest_hospital__k": {
+            "fieldName": "Distance_to_nearest_hospital__K",
+            "label": "Distance to nearest hospital (KM)",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          "nearest_clinic": {
+            "fieldName": "Nearest_Clinic",
+            "label": "Nearest Clinic",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "distance_to_nearest_clinic__km_": {
+            "fieldName": "Distance_to_Nearest_Clinic__KM_",
+            "label": "Distance to Nearest Clinic (KM)",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          "nerest_pharmacy": {
+            "fieldName": "Nerest_Pharmacy",
+            "label": "Nerest Pharmacy",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "distance_to_nearest_pharmacy__k": {
+            "fieldName": "Distance_to_Nearest_Pharmacy__K",
+            "label": "Distance to Nearest Pharmacy (KM)",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          "nearest_park": {
+            "fieldName": "Nearest_Park",
+            "label": "Nearest Park",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "distance_to_nearest_park__km_": {
+            "fieldName": "Distance_to_Nearest_Park__KM_",
+            "label": "Distance to Nearest Park (KM)",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          "nearest_recreational_facility": {
+            "fieldName": "Nearest_Recreational_Facility",
+            "label": "Nearest Recreational Facility",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          "distance_to_nearest_recreationa": {
+            "fieldName": "Distance_to_Nearest_Recreationa",
+            "label": "Distance to Nearest Recreational Facility (KM)",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        },
+        "titleHasRelatedFields": false,
+        "titleHasAsyncExpressions": false,
+        "contentHasAsyncExpressions": false
+      },
+      "rendererJson": "{\"type\":\"uniqueValue\",\"field1\":\"Level_of_Care_Provided\",\"uniqueValueInfos\":[{\"value\":\"Full Care\",\"symbol\":{\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriPMS\",\"url\":\"http://static.arcgis.com/images/Symbols/PeoplePlaces/School.png\",\"imageData\":\"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\",\"contentType\":\"image/png\",\"width\":13.5,\"height\":13.5},\"label\":\"Full Care\"},{\"value\":\"Partial Care\",\"symbol\":{\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriPMS\",\"url\":\"http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_62_Yellow.png\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAYagMeiWXwAABXZJREFUeJztmn1MVWUcx78XFBn3JoQCKolChZTYC2CI9yYETBg4NXGzqGSyYmvZxC1bTC1sva1/aBNdQSsnCxKVjIIl4yWIFx1SmrSFlc3WaBgYLqCBIj2/c+45HO47955z4XLvd/uMy73Pc+453/s8v9/zBneXF9xcHgPg5vIYADeXxwC4uZQ2II2RxUjUM+ukpAF7GN8wTjG+1TOhZ4DRymhilDLe0JODSbNWwwlSyoAixgf0InSZr6nPAxlaRhLjeUahnmOYNKsbk4bdAm+WlDLGAkdvVG4D6IYqGPne3qqJkuIYXP0pA2mpIY5edx54s6Q8yzgDB02Q0wB/8E3+KbXae6KqIkG167lweHmpUP5pPO6NUEMBpYPvYt72XkAuA0LB9+mkRYE+aKxNVGWkLRU/XLhwPqortVD72X2flrSJ8TnsNEEOAyhYnWNE06/c3vgEYh6526hQ5P134fjHj0EhbWfUYzJmSPndUkVHDaBoTb/8PbGPBqC9IRkR4RqzhTdnLsPrBQ9AISWZeX+epUqOGLADfJ8PyExfQs0egaz5W9PB1x4ElVdKK8L8cOtmFq79nCG8pbFU3l4DKMdTv/PN3bkSVRXr4ec3D7aKguIq1iWU0PDIbe6vRi3ej+wtQMzx1Jw/OhzLRfrpiMyqPrkeLFtAbvX3j6GuoQ8ajfjcsrUAoxxPzdleUayoLEuAEtr2dDvqm65L3zI7VrDVgCk5vvqklsvxjmpjSgjeORQNuTU6eoczQdLCfM2VtcUAMceHBC9AS12Sim5cLu3LX4WsLaGQW2TCyPC48G++uXLWDBBzPAWt9sZkPBQdALn1yYdxeHiNv+zXnZj8Uwh+smUkSwaIOT5+bSA3wAlb7gclREGxsmwdFtmQRu0QRWjBhP2GH5ozQMzxW9jghXI8DWeVFAXF8mPxYAFWicsLJrwFPoWLMmWAmOPzcsNxqjwBPj7OWThKTgzGuwoERb0EZymFiyYYPpmY4yk6HymKgbO19+VIZO8IU/pr6BlfoheCAVNy/PHStVx0nimVFseC5hbWRIE5Ubd4CjTMpgGaFDOjzmJGDhkg5nh6d3x8QrXzhU7M9z/NsT27A84WdTk21kBD7QYRGt8b0n1hI+prEqdw5oSWG6BJiYoUDaCuXShhJRnA5XjMMgUH+WKDNkhEJpEBh6SQAWvABwhDtsIN5NkXgIur/dwAUjObjXgm97xN9adtwAibb7e0/W3E9xf/wUyof2AUza39RpzvvGFT/Wkb8OvVIaRktBiRt7sLriiX7wKOSnEDhPGEIdRPZ4M8LQBuLo8BmCOi9T/ahH3z4Gpu7nDlUrpN9VzeAF3CYnS1pWCwdyu+Pq1DwStR3NzB1qX6aRtwX4RmyixNoIRNYWdCtBvlyDrltA2g9TvpLE3A1IaoK8jlu4Cj8hgAN5fHAMxhNTZfx/7CbrR29JstM6cM+LF7EEWHr2BTVit8A6uQtvk7vF/Ug4EbY0KRQcM6Lm1A71//oaz8GnLyOrEk/CvEahvw6oHLOFvfR6vbVITOGtIeAB2koh1ioymoSxlAq1HVNb3Ys+8iouPqsCKqFrkvXkD5iT+EX/lP8Ict6QwhncOhBd+9jBrGqKlrzmoDxsbucKc9qB/rUpvgv/RLZGV34GjJb+j55V8qMgT+sORuRhRjOWMX4zNGny3fYdUACiCmFh1thba9TTE0fNtivThdPdRBXyBzWyvXjyVrfLSPcYCxjkE7Hk8yjjB6YIesGkBNy9Sio61cunzTJF0/DFqtJ3ng98CfCqV+/DjjbYZty74OGCDsGM0UOvAbNPTABYyzMNOPHZElA+hIe/MM0gYnaFYHQWfIYwDcXB4D4ObyGAA31/8QdzGdH6fetAAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":13.5,\"height\":13.5},\"label\":\"Partial Care\"},{\"value\":\"Independent Living\",\"symbol\":{\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"type\":\"esriPMS\",\"url\":\"http://static.arcgis.com/images/Symbols/PeoplePlaces/esriBusinessMarker_62_White.png\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAAYagMeiWXwAABSdJREFUeJztml8odGkcx7+zXplisy2i1kZR6N0NcUFrM6IQhVbtq+i1caF2te9GSbbMli0utHthc8HFaGkpYkIoYoqyRVFbbKl1wcXG1hYutDT7/M6ZOXPm/5k55wzjnG99mumc55yZ8z3P8/s9/6B1vQeNSzcAGpduADQu3QBoXGobUM34glHu4NlJTQO+Zawz5hk7DuwO/mHsMrYZE4xBB2/hMus1IiC1DPiJ8TN9SU9P93X+Q8ZnDBOjk2F2YIHLrD/gMuw/8GaJ+ZURJ/ePKm0A/aHfGO9iYmLsk5OTOD8/R01Njdz7vgJvlphWxhJkmqCkAYngq/yb+Ph4u9VqNXR0dIAZgdnZWWRnZ0MFkbPUxGLCvYFSBnwEvk2bkpOTYbPZDHV1dcLJxMRErKysgBkDFVTPmEWYJihhAAWrfcYn9Jb39/dRVFTkVSgnJwczMzNQSc2MTbhihpi/Al0o1wCK1vTm04uLi7mHz8rK8lu4oaEBZrMZKsnk5/irQBfJMeBL8G3+g/r6euzs7CApKSnoRYODg6DyaikzMxN2ux0XFxfOQwmByodrAOV4anfGzs5OLC0thdS+KSjm5uZCDd3d3XGfCQnCcyteA4QcT9V5YmKCi/ShiMxSKyheXV1hY2NDbIBiNcArx1N1DlcUKxYWFqCGKNZsbm6KD/ntK0g1wC3Hr66ucjlerqqrqzE8PAyldX9/z5kgqgVGf2WlGCDk+LS0NOzt7Rnojyulvr4+NDc3Q2mRCc54wPTOX7lgBgg5noIWpbn8/HwoLYvFgoKCAsXvS9kAfF/ADH6w5aVABgg5vqSkhHv4jIwMqCEKhvPz85LSaBgywGXCgOdJfwYIOb6xsZHL8dSdVVMUFOfm5kLOKBLlNGEIfAoX5MsAIcd3dXVhcXERcXGyR52SVFlZiZGREbVub3B8UgoXTPA0QMjxFJ3Hx8cRafX09KC1tVXtn6Fn/Jq+OA1wy/HT09NcdH4qUR+DxhbBRIHZZDK5Qd1s6qCJ8dPrHGO8JQOEHE9HHx8fDfQGDAYDR1NTEyItanLUU6TY44QiuicnJyfY3t52Y3l5meugiREZQE3bLCKTDOByPJ6ZUlNTUV5eLqCQyIAfxJABn4IPEJ40QgPS1wUQ5WJdc1RUVHjR0tIi6fqQDaD+tc1m8+Lw8BBPoevra7dg6YR6rlIUsgFnZ2deqYegiZFoVNQ3AblS3QBnf8ITaqfPQXoNgMalG4AXIpr/o0XYoaEhLg1StpKiqDegrKwMR0dHuLm5wdraGgYGBrixg9SJlZANoPU/Xx0PGsI+hWgaTc48ZcgG0PydeJTmxNeCaDQo6puAXOkGQOPSDcAL1tbWFvr7+7G7u+u3zIsy4Pj4GKOjo6itrUVsbCyqqqq46X2aM3DoX89rotqAy8tLTE1Noa2tDSkpKdz6Ym9vL9bX1/Hw8EBFaK8hrQHQlhRaIbZ53iOqDKDZKKvViu7ubuTl5XGbMNvb20HrGI63TPtiLOD3EKaBn/D9jrHKuPd1z2dtAC1x024PaselpaVcf5/WKsfGxnB6ekpFbsFvlvyGQZP/HzO+YtB2tL+l/EZQAyiA+Jp0lApVS1/c3t4GvK6wsBBGo5Eb4FA7Fs3xUUT7nlHCeJ9BKze/MP5EGApqgL9JR6nQQMUXBwcHQa8TPTBtI6FdodSOP2f8yPgdCiiQAc4Vo6eiDPwCDT1wP2MDftqxHAUygLa0256QPURAzzoIRkK6AdC4dAOgcekGQOP6HxU3M502Y9HNAAAAAElFTkSuQmCC\",\"contentType\":\"image/png\",\"width\":13.5,\"height\":13.5},\"label\":\"Independent Living\"}]}",
+      "bypassDrawingInfo": false,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"44\" height=\"44\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-22\" y=\"-22\" width=\"44\" height=\"44\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,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\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,22.00000000,22.00000000)\"></image></svg>",
+      "imageData": "<div class=\"imageDataGFX\"><svg overflow=\"hidden\" width=\"28\" height=\"28\" style=\"touch-action: none;\"><defs></defs><image fill-opacity=\"0\" stroke=\"none\" stroke-opacity=\"0\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" x=\"-14\" y=\"-14\" width=\"28\" height=\"28\" preserveAspectRatio=\"none\" xlink:href=\"data:image/png;base64,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\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,14.00000000,14.00000000)\"></image></svg></div>"
+    }
+  ],
+  "mapID": "386b11a9d0454d9eaac390e826820604",
+  "mainPanelText": "",
+  "refreshInterval": "",
+  "refreshEnabled": false,
+  "countEnabled": true,
+  "displayPanelIcon": false,
+  "hidePanel": false,
+  "continuousRefreshEnabled": false,
+  "expandList": false,
+  "showAllFeatures": true,
+  "upgradeFields": false,
+  "displayClusterLayer": true
+}
