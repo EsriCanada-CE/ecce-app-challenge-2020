@@ -1,13 +1,12 @@
-# Better Call COGS
+# EcoViewer
 
 ## Team Photo
-![TeamPhoto.jpg](../images/team.jpg)
+![team.jpg](../images/team.jpg)
 
 ## Team Member Bios
 
-**Amanda Ring** (left): Hailing from BC, I am currently enrolled in the Advanced Diploma in Remote Sensing at the Centre of Geographic Sciences (COGS). I have a background in Environmental Science and Biology and love using geomatics to gain a deeper understanding of ecosystems' spatial relationships. I am passionate about learning new things and sharing information with others. In my spare time, I love partaking in any outdoor activity and I am part of Nova Scotia's women's ultimate frisbee team.
+**Kang Liang** (right): Kang is in his final year of his PhD in hydrology in the Faculty of Forestry and Environmental Management at the University of New Brunswick. His research focuses on the evaluation of the impacts of anthropogenic activities on water quality and quantity from field to watershed scale by using hydrological models. He relies on GIS for geospatial analysis and data visualization in his research. He is excited with this opportunity through which he can apply his GIS knowledge as well as push his knowledge forward. In his spare time, Kang enjoys swimming, billiard, hiking, camping and music.
 
-**Rafael Del Bello** (right): Originally from Montreal, I am currently enrolled in the Advanced Diploma in Remote Sensing at the Centre of Geographic Sciences (COGS). I have a background in Environmental Geography and I'm a certified UAV pilot with a passion for location technologies, visualizations and data acquisition. I saw the ECCE challenge as a great way to develop our team building and problem-solving skills while also showcasing the use of the Esri's platform for real world applications.
+**Heidi Harding** (middle): Heidi is a first year Master of Science in Forestry student. Her research is looking at the availability and usage of nesting habitat by cavity-nesting ducks in the lower Saint John River floodplain. GIS is an integral part of her research, allowing her to identify habitat-level characteristics that may help determine nesting habitat use. Her research is supported by Ducks Unlimited Canada, who will use her results to help inform management and conservation actions. She has a background in biology, education, and technology training, and enjoys reading, painting, and gardening in her free time. 
 
-**Sukhjit Pelia** (middle): I’m an International student originally from Mumbai in India, and I’m currently a student in the Advanced GIS Diploma program at the Centre of Geographic Sciences (COGS) in Lawrencetown, Nova Scotia. I have a Master’s degree in Geoinformatics (2016) and a Bachelor’s degree in Information Technology (2012). I'm a GIS enthusiast and enjoy web programming, online mapping applications, and working with relational databases.
-
+**Huimin Hao** (left): Huimin is a Master of Science in Forestry in the Faculty of Forestry and Environmental Management at the University of New Brunswick. Her current project is focused on the phenological and morphological response of tree seedlings to drought. She has the basic knowledge of ArcGIS and is interested in it. She hopes to improve her GIS knowledge through this study. In her daily life, she likes watching football matches, listening to music and exercising.
