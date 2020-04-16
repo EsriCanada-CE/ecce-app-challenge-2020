@@ -32,7 +32,7 @@ The Senior Harbour app can be adapted to other Canadian cities and communities, 
 	1. Checking the checkbox will turn on a layer. 
 	1. Clicking on a layer name will show or hide all symbols associated with the layer.  
 1. Click on a home and a pop-up window will display the information such as the name of the home, level of care provided, total occupancy, address, the name and the distance of the closest health care services and recreational facility.
-	1. In the home information panel, you can click on the '...' (elipses) icon to access additional feature options. 
+	1. In the home information panel, you can click on the '...' (ellipses) icon to access additional feature options. 
 	1. To download home information to a csv file, choose 'Export to CSV".
 	1. To get directions to or from the home to a second location, select the appropriate option from the list and type or select a second location from the map. (see more on using the 'Directions' tool in step 6)
 1. To select a specific home, click on the third icon in the top right of the app. Select the home of interest by name from the dropdown list. The map will highlight and zoom to the selected home and the information window will pop-up.
