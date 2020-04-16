@@ -7,7 +7,7 @@
 
 ## Mission Statement
 
-The third United Nations Sustainable Development Goal is �good health and well-being to ensure healthy lives and promote well-being for all at all ages� (UN 2020). The government of Canada has committed to working towards these goals. 
+The third United Nations Sustainable Development Goal is "good health and well-being to ensure healthy lives and promote well-being for all at all ages" (UN 2020). The government of Canada has committed to working towards these goals. 
 As seniors represent a growing portion of Canada's population, promoting health and well-being for seniors is an important part of meeting this goal. In fact, 23% of the population will be age 65 or older by 2030 (Canada 2019). 
 Accessibility to suitable housing is an increasing concern to seniors and families, and accessibility to appropriate health resources is often a key consideration in locating suitable housing. According to the Canada Mortgage and Housing Corporation (2016), 50% of seniors' housing structures have access to on-site medical services, 40% have on-site exercise facilities, and less than 10% have access to a pharmacy. 
 These statistics suggest that many seniors are dependent on health services in their surrounding neighbourhood. Furthermore, 90% of Canadians aged 65 and over live with one or more chronic diseases or conditions, making access to hospitals and medical services essential. 
@@ -25,7 +25,7 @@ The Senior Harbour app can be adapted to other Canadian cities and communities, 
 * Clicking on a specific home opens an information window with information about that home and the distance to the nearest hospital, medical clinic, pharmacy, park, and recreational facility
 * Users can filter homes by care level (full or partial care, or independent living) or select a specific home from a drop down list to zoom directly to that location
 
-##User Guide
+## User Guide
 
 1. Zoom in or zoom out the map to view all the homes available in the Halifax Regional Municipality.
 1. To turn on and turn off layers of health care services and recreational facilities, click on the Layer List icon. 
@@ -41,7 +41,7 @@ The Senior Harbour app can be adapted to other Canadian cities and communities, 
 	1. A list of all homes of the selected type will appear in the selection window. 
 	1. You can click on any home of interest to display the detailed information of that home.
 	1. To view all care levels again, select the <empty> option. This will reset the map to include all home types.
-1. Users can use the �Direction� tool to calculate the driving time to and from selected homes or between other locations.
+1. Users can use the 'Direction' tool to calculate the driving time to and from selected homes or between other locations.
 	1. Click on the 'Directions' icon in the top right corner of the app screen. 
 	1. Select a starting location either by clicking a location on the map or entering an address. (You may also start directly from a selected home by following step 3.3 above)
 	1. Select a second location by entering an address or clicking a location on the map. You may add additional locations to create a multi-step trip.
