@@ -1,17 +1,15 @@
-﻿#Mapping Ticks in Nova Scotia
+# Mapping Ticks in Nova Scotia
 A Web app created by **The Wizards of COGS** for the 2020 Esri Canada Centres of Excellence App Challenge
 
 ![Tick Image](https://shawglobalnews.files.wordpress.com/2017/08/wx104-73_2017_222714_high.jpg?quality=70&strip=all&w=650&h=379&crop=1 "Tick")
 
-
-
-###The Wizards of COGS is comprised of:
+### The Wizards of COGS is comprised of:
 * Mikaila Bickford
 * Peter Opra
 * David Lefebvre 
 
 
-##Mission Statement
+## Mission Statement
 
 The theme of this year’s ECCE App Challenge is Health. As health is a vast subject, our team decided to tackle a broad issue facing Nova Scotia – the transmission of Lyme Disease by ticks. Bringing together the health concerns of Nova Scotia residents and those facing our dear pets we wished to help lessen the burden of being aware of the presence of ticks in our environment before and after going outdoors. 
 
@@ -23,14 +21,14 @@ Consequently, the best treatment for Lyme Disease is tick bite prevention. Preve
 
 However, this app is only supposed to act as a guide and using it on its own will not prevent tick bites or Lyme Disease. Completing the steps to preventing tick bites after an outing is imperative - it is highly recommended to perform a tick check since the removal of any ticks in a timely manner will most likely prevent the transmission of the disease. If you do encounter a tick the application can be of use to easily document any encounters and help your local community in tick prevention.  
 
-##App Characteristics
+## App Characteristics
 
 This web application tackles the issue of Lyme Disease in Nova Scotia - an increasingly significant, province wide health issue - by mapping tick density. By bringing awareness to the presence of ticks in our environment before and after going outdoors, we hope to empower users to empower each other. 
 
-###Using Citizen Science as a powerful data collection tool 
+### Using Citizen Science as a powerful data collection tool 
 Citizen science is a powerful data collection tool that engages the public with data collection and science. This web app compiles user submitted data on tick sightings to create a comprehensive map of tick density throughout Nova Scotia - in this case, the app will get better (and more accurate) with age! To submit a tick report, click on [this link](https://survey123.arcgis.com/share/0d735d3f194e41cf8a61c2aacbd01fa7) (also in the upper right corner of the app) - the form will ask you several questions about your experience, and plot your data.  
 
-###Layers
+### Layers
 All layers created for this app used open, Canadian data sets. Please feel free to explore the app by turning layers on and off within the layer tab, zooming in and out (as some layers are only visible if zoomed in), and clicking around the map to view in each area. Other layers included within the app are: 
 
 * Reported ticks - iNaturalist user tick sightings, exported from [iNaturalist.org](https://www.inaturalist.org/)
@@ -39,14 +37,11 @@ All layers created for this app used open, Canadian data sets. Please feel free 
 
 * Localized Areas of Risk for ticks, a habitat model for tick suitability developed using Ecological Land Classification Data (*[Nova Scotia Geographic Data Directory](https://nsgi.novascotia.ca/gdd/) 2015*) 
 
-###Other App Features 
+### Other App Features 
 
 Planning a hike? Check out the Find Ticks Near Me widget in the right corner to find ticks in your local area or destination. Just curious? Click on the infographic tab and explore the map to see how many ticks have been reported within your screen's extent. 
 
-
-
-
-##Data Sources
+## Data Sources
 
 [iNaturalist, User tick sightings filtered by Location (Nova Scotia) (CSV). Nova Scotia, Canada: iNaturalist.org, exported March 2020](inaturalist.org)  
 
@@ -56,17 +51,17 @@ Planning a hike? Check out the Find Ticks Near Me widget in the right corner to 
 
 [Nova Scotia Geographic Data Directory, County Boundaries (Shapefile). Nova Scotia, Canada: Government of Nova Scotia, 2018-05-03](https://nsgi.novascotia.ca/gdd/) 
 
-![Lyme Disease Risk by County](https://novascotia.ca/dhw/CDPC/images/LymeDisease_County_Web_201903-1000.png "Nova Scotia Lyme Disease Risk by County")
+[![Lyme Disease Risk by County](images/LymeDisease_County_Web_201903-1000.png "Nova Scotia Lyme Disease Risk by County")](https://novascotia.ca/dhw/CDPC/images/LymeDisease_County_Web_201903-1000.png)
 
 
-##Meet the Wizards
-###Peter Opra
+## Meet the Wizards
+### Peter Opra
 Peter is a student at the Centre of Geographic Sciences, Nova Scotia Community College, who is pursuing an Advanced Diploma in GIS. He has a background in Geology, having graduated from Saint Mary’s University and mapped legacy gold mine tailings in Nova Scotia’s Historic Gold Districts. He is passionate about the earth, the processes that formed and shape it to the present day. He believes with GIS we can document resources and create maps that can tell a story. He enjoys the great outdoors, exploring, and always learning. I am a geologist surfing the waves of a geospatial world. 
 
-###Mikaila Bickford
+### Mikaila Bickford
 Mikaila is a student at the Centre of Geographic Sciences, Nova Scotia Community College, who is pursuing an Advanced Diploma in GIS. Her background is in both anthropology and marine management, holding a BA(Hons.) from University of Toronto and an MMM from Dalhousie. She is passionate about ocean conservation and maps, and loves the way GIS combines technology with creativity and design. She believes that documenting our relationship with the ocean and coastal zone through GIS and can have profound future impacts. When she's not in the lab, you can find Mikaila diving, hiking, taking photos, or eating oysters. 
 
-###David Lefebvre
+### David Lefebvre
 David is a student at the Centre of Geographic Sciences, Nova Scotia Community College, who is pursuing an Advanced Diploma in GIS. He is currently studying on geographic science systems (GIS) in the GIS concentration. Before coming here he studied Environmental Geography at the University of Montreal in the province of Quebec and Geomatics at the Algonquin College of Ottawa, in Ontario. Since then for the last 5 years, he has worked as a Geomatic Technician for the Canadian Armed Forces and was given the opportunity to return to school to further my knowledge in the field of geomatics and GIS. His pastimes mostly involve outdoor sports and activities such as hiking, biking, climbing (Ice & Rock) and trail running, but he also partakes in group sports such as volleyball. 
 
 
