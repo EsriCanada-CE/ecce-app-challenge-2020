@@ -37,7 +37,7 @@ There are two statistical results highlighted in the application.
 
 The number of deaths usually addresses the severity of an epidemic, and is highly concerned by citizens. This part shows the death cases in 5 sub areas of Alberta from August 25th 2019 to February 8th 2020 in a pie chart. Local governments and citizens in a rather severe area may raise their attention to strictly monitor the influenza activities and prevent the flu from spreading. By clicking the setting button on the upper right of this widget, users can choose to show or hide legends and/or data labels. More details will be shown by hovering over different sections of the pie chart.
 
-2.Population vs Immunization in Alberta:
+2. Population vs Immunization in Alberta:
 
 In this section, users would have a clear view on the population of the municipalities and how many people in that sub area are immunized with the influenza vaccines, which is usually an indicator of the flu prevention. Users could show/hide the axes and legends by the setting button. More details will be shown by mouseover.
 
