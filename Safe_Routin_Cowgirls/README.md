@@ -70,7 +70,7 @@ Citizens are typically motivated by the desire to aid a worthy cause, and by par
 
 *Access the App and Get Started*
 
-[Lets go to *Routing4Safety*](http://ucalgary.maps.arcgis.com/apps/webappviewer/index.html?id=a56872f561754ed9b97548e55179def3)
+[Lets go to *Routing4Safety*](https://esricanada-ce.github.io/ecce-app-challenge-2019/Safe_Routin_Gowgirls/app/)
 
 Upon opening the app, the user is greeted by an introduction. To proceed, click OK.
 
