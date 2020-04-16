@@ -70,7 +70,7 @@ Citizens are typically motivated by the desire to aid a worthy cause, and by par
 
 *Access the App and Get Started*
 
-[Lets go to *Routing4Safety*](https://esricanada-ce.github.io/ecce-app-challenge-2019/Safe_Routin_Gowgirls/app/)
+[Lets go to *Routing4Safety*](https://esricanada-ce.github.io/ecce-app-challenge-2020/Safe_Routin_Gowgirls/app/)
 
 Upon opening the app, the user is greeted by an introduction. To proceed, click OK.
 
