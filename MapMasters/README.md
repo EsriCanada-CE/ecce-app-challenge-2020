@@ -10,7 +10,7 @@ This web app displays economic and health-related data to help determine at-risk
 *A submission for the Esri Canada Centres of Excellence 2020 App Challenge* , *Created by the MapMasters (McMaster University)*
 
 ### Demo Video
-INSERT LINK
+[https://youtu.be/tAb82cmShqI](https://youtu.be/tAb82cmShqI?list=PLdgq5G0ox73X_hA9JTHACgGvtzetZK1IA)
 
 ## Mission Statement
 Since its initial appearance in Wuhan, China in December 2019, the novel coronavirus (COVID-19) has been formally declared a Public Health Emergency of International Concern (PHEIC) by the [World Health Organization](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen). This declaration calls for a coordinated international response and immediate action across the globe.
