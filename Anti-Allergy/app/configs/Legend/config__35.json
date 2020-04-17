@@ -1,0 +1,26 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": false,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "treemerge4_4330": {
+      "selected": true
+    },
+    "tree_hotspot3_4948": {
+      "selected": true
+    },
+    "survey123_34c80db704074c4da201dbdee78e32aa_1413": {
+      "selected": true
+    },
+    "NOAA_METAR_current_wind_speed_direction_v1_6037": {
+      "selected": true
+    },
+    "NOAA_METAR_current_wind_speed_direction_v1_2490": {
+      "selected": false
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}

@@ -1,0 +1,69 @@
+{
+  "charts": [
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "webMapLayerId": "NOAA_METAR_current_wind_speed_direction_v1_6037",
+      "mode": "feature",
+      "name": "Current wind and temperature",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "column",
+          "display": {
+            "colors": [
+              "#5d9cd3",
+              "#eb7b3a",
+              "#a5a5a5",
+              "#febf29",
+              "#4673c2",
+              "#72ad4c"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "STATION_NAME",
+      "valueFields": [
+        "WIND_SPEED",
+        "TEMP"
+      ],
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    }
+  ]
+}

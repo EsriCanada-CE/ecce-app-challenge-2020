@@ -1,0 +1,61 @@
+{
+  "bookmarks2D": [
+    {
+      "displayName": "City of Toronto",
+      "name": "City of Toronto",
+      "extent": {
+        "xmin": -8877352.624747274,
+        "ymin": 5396687.388457197,
+        "xmax": -8794800.634199293,
+        "ymax": 5442549.605428298,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "xmin": -8877352.624747274,
+                "ymin": 5396687.388457197,
+                "xmax": -8794800.634199293,
+                "ymax": 5442549.605428298,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "/apps/webappbuilder/stemapp/widgets/Bookmark/images/thumbnail_default.png",
+      "isInWebmap": false,
+      "isSaveLayers": false,
+      "layerOptions": {
+        "NOAA_METAR_current_wind_speed_direction_v1_6037": {
+          "selected": true
+        },
+        "NOAA_METAR_current_wind_speed_direction_v1_2490": {
+          "selected": true
+        }
+      },
+      "_uID": 1
+    }
+  ],
+  "bookmarks3D": [],
+  "layout": {
+    "cards": true,
+    "list": false,
+    "defaultMode": "cards"
+  },
+  "editable": true,
+  "syncMode": {
+    "webmap": true,
+    "custom": true
+  },
+  "isSaveLayerVisibility": false
+}
