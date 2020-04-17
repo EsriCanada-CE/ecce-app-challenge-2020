@@ -6,4 +6,4 @@
 
 <img src="../images/tia.jpg" style="max-height:150px; margin:0 .5em .25em 0; float: left;" /> **Tia Datta** is a 3rd year undergraduate student at U of T studying Computer Science and Statistics. She helped with coding this app and enjoyed exploring the functionalities of ArcGIS Online and learning about spatial analysis techniques. She hopes to utilize these skills in future projects. Her hobbies include cooking, video games, and spending time with her cat.<br style="clear:both;" />
 
-<img src="../images/chloe.jpg" style="max-height:150px; margin:0 .5em .25em 0; float: left;" /> **Chloe Nguyen is a 1st year undergraduate student at U of T studying Computer Science. She was a developer for this project. She has an interest in data science and her hobbies include dance, martial arts, chess and piano.
+<img src="../images/chloe.jpg" style="max-height:150px; margin:0 .5em .25em 0; float: left;" /> **Chloe Nguyen** is a 1st year undergraduate student at U of T studying Computer Science. She was a developer for this project. She has an interest in data science and her hobbies include dance, martial arts, chess and piano.
