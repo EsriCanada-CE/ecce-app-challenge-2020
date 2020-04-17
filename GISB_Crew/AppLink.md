@@ -1,6 +1,6 @@
 Hosted on GitHub:
 
-- [https://esricanada-ce.github.io/ecce-app-challenge-2020/GISB_Crew/app/](https://esricanada-ce.github.io/ecce-app-challenge-2020/GISB_Crew/app/)
+- Main app: [https://esricanada-ce.github.io/ecce-app-challenge-2020/GISB_Crew/app/](https://esricanada-ce.github.io/ecce-app-challenge-2020/GISB_Crew/app/)
 
 Hosted in ArcGIS Online:
 
