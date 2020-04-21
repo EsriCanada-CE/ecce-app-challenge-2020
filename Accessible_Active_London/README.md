@@ -1,12 +1,13 @@
 # Accessible Active London --- Active Transport Accessibility Score Mapping Application
 
-Victoria Barlow
+Victoria Barlow<br />
 Jack McIlraith
 
 Esri Canada Centres of Excellence App Challenge 2020
 
 Western University, Canada
 -------------------------------------------------------------------------------------
+
 MISSION STATEMENT
 
 The environmental and health benefits of active transportation should be accessible to all
@@ -17,7 +18,9 @@ transport and accessibility through public participatory GIS (PPGIS), by invitin
 to use the app to plan active transportation and report accessibility issues in London. 
 Public engagement in improving the accessibility of active transportation routes will make
 London a healthier, safer and more inclusive city while connecting members of the public.
+
 --------------------------------------------------------------------------------------
+
 Accessible Active London - App Information
 
 The mobile and web app provide a resource the public can use to aid in planning their use
@@ -34,7 +37,9 @@ Information on accessibility issues reported by the public can help public worke
 and improve London's active transportation pathways. Public participation in the maintenance
 and improvement of transportation routes supports municipal accountability and provides
 direction for public workers.
+
 -------------------------------------------------------------------------------------
+
 HOW TO USE THE APP
 
 -USERS-
