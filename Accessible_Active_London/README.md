@@ -1,6 +1,6 @@
 # Accessible Active London --- Active Transport Accessibility Score Mapping Application
 
-Victoria Barlow
+Victoria Barlow<br />
 Jack McIlraith
 
 Esri Canada Centres of Excellence App Challenge 2020
