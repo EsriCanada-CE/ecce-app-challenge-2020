@@ -4,4 +4,4 @@ Hosted in ArcGIS Online:
 
 Hosted on GitHub:
 
-- Data update routine (python script): [https://github.com/EsriCanada-CE/ecce-app-challenge-2020/blob/master/Error-9999/src/error999.py](https://github.com/EsriCanada-CE/ecce-app-challenge-2020/blob/master/Error-9999/src/error999.py)
+- Data update routine (python script): [https://github.com/EsriCanada-CE/ecce-app-challenge-2020/blob/master/Error-9999/src/error9999.py](https://github.com/EsriCanada-CE/ecce-app-challenge-2020/blob/master/Error-9999/src/error9999.py)
