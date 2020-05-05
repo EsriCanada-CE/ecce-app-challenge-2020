@@ -6,6 +6,15 @@ For 2020, teams participating the challenge were tasked to create an app that ad
 
 ## App Challenge Results:
 
-All of the apps will be reviewed, and winners announced by the end of April.
+All of the apps were reviewed by judges, and the team with the best aggregate score was chosen as the winner.  Esri Canada is pleased to announce the winning team for the 2020 App Challenge:
 
-*Stay tuned...*
+**[QuaranTEAM](https://esricanada-ce.github.io/appchallenge/2020/teams/utsg/QuaranTEAM/) from University of Toronto (St. George)**
+
+The first runner-up for the challenge is:
+
+**[Geo Nerd Herd](https://esricanada-ce.github.io/appchallenge/2020/teams/yorku/Geo_Nerd_Herd/) from York University**
+
+Tied for second runner-up:
+
+**[Safe Routin' Cowgirls](https://esricanada-ce.github.io/appchallenge/2020/teams/ucalgary/Safe_Routin_Cowgirls/) from University of Calgary**<br />
+**[MapMasters](https://esricanada-ce.github.io/appchallenge/2020/teams/mac/MapMasters/) from McMaster University**
